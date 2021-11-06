@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  
+  <title>Frontend Mentor | Profile card component</title>
+
+</head>
+<body>
+  <main class="container">
+    <section class="profile-card">
+      <div class="profile-photo">
+        <img src="images/image-victor.jpg" class="profile-photo">
+      </div>
+      <div class="profile-name">
+        <p>Victor Crest</p>
+        <div class="profile-age"><p>26<p></div>
+      </div>
+      <div class="profile-city">London</div>
+      <div class="profile-stats">
+        <div class="profile-stats-item">  
+          <p class="profile-stats-nmb">80K</p>
+          <p class="profile-stats-srv">Followers</p>
+        </div>
+        <div class="profile-stats-item">
+          <p class="profile-stats-nmb">803K</p>
+          <p class="profile-stats-srv">Likes</p>
+        </div>
+        <div class="profile-stats-item">
+          <p class="profile-stats-nmb">1.4K</p>
+          <p class="profile-stats-srv"> Photos</p>
+        </div>  
+      </div>
+
+    </section>
+  </main> 
+  
+  <script>
+  
+$(window).resize(function() {
+$("body").height($(window).height());
+});
+  </script>
+  
+</body>
+</html>

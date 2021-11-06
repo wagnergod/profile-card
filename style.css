@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Kumbh Sans', sans-serif;
+}
+
+body{
+
+	background-color:  hsl(185, 75%, 39%);
+	background-image: url(images/bg-pattern-top.svg), url(images/bg-pattern-bottom.svg);
+	background-attachment: fixed;
+	background-position: -200px -540px, 700px 340px;
+	background-repeat: no-repeat;
+}
+
+.container{
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;	
+}
+
+.profile-card{
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	width: 330px;
+	height: 370px;
+	border-radius: 10px;
+	background: #fff url("images/bg-pattern-card.svg");
+	background-attachment: cover;
+	background-repeat: no-repeat;
+}
+
+.profile-card .profile-photo img{
+
+	border-radius: 100%;
+	border: 5px solid #fff;
+	position: relative;
+	margin-top: 60px;
+}
+
+.profile-card .profile-name{
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 10px;
+
+}
+
+.profile-card .profile-name p{
+
+	font-size: 18px;
+	font-weight: 700;
+	color: hsl(229, 23%, 23%);
+	margin-right: 10px;
+}
+
+.profile-card .profile-name .profile-age p {
+
+	font-weight: 400;
+	color: hsl(227, 10%, 46%);
+	margin-top: 3px;
+}
+
+.profile-card .profile-city{
+
+	font-size: 13px;
+	color: hsl(227, 10%, 46%);
+	margin: 3px 0 20px 0;
+}
+
+.profile-card .profile-stats{
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-top: 1px solid hsla(227, 10%, 46%, 0.3);
+	width: 100%;
+	padding-top: 25px;
+	
+}
+
+.profile-card .profile-stats .profile-stats-item{
+
+	margin: 0 25px; 
+}
+
+.profile-card .profile-stats .profile-stats-item .profile-stats-nmb{
+
+	font-size: 18px;
+	font-weight: 700;
+	color: hsl(229, 23%, 23%);
+	text-align: center;
+
+}
+
+.profile-card .profile-stats .profile-stats-item .profile-stats-srv{
+
+	margin-top: 5px;
+	font-size: 10px;
+	letter-spacing: 1px;
+	font-weight: 400;
+	text-align: center;
+	color: hsl(227, 10%, 46%);
+
+}
+
